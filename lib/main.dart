@@ -80,13 +80,286 @@ class MyApp extends StatelessWidget {
                                 Container(
                                   width: 216,
                                   height: 72,
+                                  padding: EdgeInsets.all(12),
                                   decoration: BoxDecoration(
                                   color: Color.fromRGBO(47, 49, 53, 1),
                                     borderRadius: BorderRadius.circular(6), // 设置圆角大小为10
                                   ),
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    children: [
+                                      SvgPicture.asset(
+                                        'assets/icons/dataset.svg',
+                                        width: 48,
+                                        height: 48,
+                                      ),
+                                      SizedBox(
+                                        width: 12,
+                                      ),
+                                      Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            height: 20,
+                                            alignment: Alignment.centerLeft,
+                                            child: Text(
+                                              '请选择',
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                          SizedBox(
+                                            height: 8,
+                                          ),
+                                          Container(
+                                            height: 20, // 固定高度为20
+                                            alignment: Alignment.center,
+                                            padding: EdgeInsets.all(2), // 设置内边距
+                                            decoration: BoxDecoration(
+                                              color: Color.fromRGBO(219, 122, 69, 1), // 背景颜色
+                                              borderRadius: BorderRadius.circular(2), // 圆角
+                                            ),
+                                            child: Text(
+                                              '数据集选择',
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                height: 1.2,
+                                                color: Colors.white,
+                                              ),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 12,
+                                ),
+                                Container(
+                                  width: 216,
+                                  height: 72,
+                                  padding: EdgeInsets.all(12),
+                                  decoration: BoxDecoration(
+                                  color: Color.fromRGBO(47, 49, 53, 1),
+                                    borderRadius: BorderRadius.circular(6), // 设置圆角大小为10
+                                  ),
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    children: [
+                                      SvgPicture.asset(
+                                        'assets/icons/model.svg',
+                                        width: 48,
+                                        height: 48,
+                                      ),
+                                      SizedBox(
+                                        width: 12,
+                                      ),
+                                      Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            height: 20,
+                                            alignment: Alignment.centerLeft,
+                                            child: Text(
+                                              '请选择',
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                          SizedBox(
+                                            height: 8,
+                                          ),
+                                          Container(
+                                            height: 20, // 固定高度为20
+                                            alignment: Alignment.center,
+                                            padding: EdgeInsets.all(2), // 设置内边距
+                                            decoration: BoxDecoration(
+                                              color: Color.fromRGBO(219, 122, 69, 1), // 背景颜色
+                                              borderRadius: BorderRadius.circular(2), // 圆角
+                                            ),
+                                            child: Text(
+                                              '模型选择',
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                height: 1.2,
+                                                color: Colors.white,
+                                              ),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 12,
+                                ),
+                                Container(
+                                  width: 216,
+                                  height: 72,
+                                  padding: EdgeInsets.all(12),
+                                  decoration: BoxDecoration(
+                                  color: Color.fromRGBO(47, 49, 53, 1),
+                                    borderRadius: BorderRadius.circular(6), // 设置圆角大小为10
+                                  ),
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    children: [
+                                      SvgPicture.asset(
+                                        'assets/icons/channel.svg',
+                                        width: 48,
+                                        height: 48,
+                                      ),
+                                      SizedBox(
+                                        width: 12,
+                                      ),
+                                      Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            height: 20,
+                                            alignment: Alignment.centerLeft,
+                                            child: Text(
+                                              '请选择',
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                          SizedBox(
+                                            height: 8,
+                                          ),
+                                          Container(
+                                            height: 20, // 固定高度为20
+                                            alignment: Alignment.center,
+                                            padding: EdgeInsets.all(2), // 设置内边距
+                                            decoration: BoxDecoration(
+                                              color: Color.fromRGBO(219, 122, 69, 1), // 背景颜色
+                                              borderRadius: BorderRadius.circular(2), // 圆角
+                                            ),
+                                            child: Text(
+                                              '通道选择',
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                height: 1.2,
+                                                color: Colors.white,
+                                              ),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 12,
+                                ),
+                                Container(
+                                  width: 216,
+                                  height: 72,
+                                  padding: EdgeInsets.all(12),
+                                  decoration: BoxDecoration(
+                                  color: Color.fromRGBO(47, 49, 53, 1),
+                                    borderRadius: BorderRadius.circular(6), // 设置圆角大小为10
+                                  ),
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    children: [
+                                      SvgPicture.asset(
+                                        'assets/icons/visual_method.svg',
+                                        width: 48,
+                                        height: 48,
+                                      ),
+                                      SizedBox(
+                                        width: 12,
+                                      ),
+                                      Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            height: 20,
+                                            alignment: Alignment.centerLeft,
+                                            child: Text(
+                                              '请选择',
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                          SizedBox(
+                                            height: 8,
+                                          ),
+                                          Container(
+                                            height: 20, // 固定高度为20
+                                            alignment: Alignment.center,
+                                            padding: EdgeInsets.all(2), // 设置内边距
+                                            decoration: BoxDecoration(
+                                              color: Color.fromRGBO(219, 122, 69, 1), // 背景颜色
+                                              borderRadius: BorderRadius.circular(2), // 圆角
+                                            ),
+                                            child: Text(
+                                              '可视化方式选择',
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                                height: 1.2,
+                                                color: Colors.white,
+                                              ),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 12,
+                                ),
+                                Container(
+                                  width: 132,
+                                  height: 72,
+                                  padding: EdgeInsets.all(12),
+                                  decoration: BoxDecoration(
+                                  color: Color.fromRGBO(12, 181, 149, 1),
+                                    borderRadius: BorderRadius.circular(6), // 设置圆角大小为10
+                                  ),
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    children: [
+                                      SvgPicture.asset(
+                                        'assets/icons/inference.svg',
+                                        width: 48,
+                                        height: 48,
+                                        color: Colors.white,
+                                      ),
+                                      SizedBox(
+                                        width: 6,
+                                      ),
+                                      Text('推理',
+                                        style: TextStyle(
+                                          fontSize: 24,
+                                          color: Colors.white, 
+                                        ),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ],
-                            )
+                            ),
                           ],
                         )
                       )
@@ -96,6 +369,24 @@ class MyApp extends StatelessWidget {
               ),
             ],
         ),
+      ),
+    );
+  }
+}
+
+class ParameterMenu extends StatelessWidget {
+  const ParameterMenu({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 216,
+      height: 72,
+      decoration: BoxDecoration(
+      color: Color.fromRGBO(47, 49, 53, 1),
+        borderRadius: BorderRadius.circular(6), // 设置圆角大小为10
       ),
     );
   }
