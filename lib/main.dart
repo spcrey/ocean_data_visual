@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(width: 12),
               Text(
-                '海洋数据可视化系统',
+                '海洋数据时空超分辨率可视化系统',
                 style: TextStyle(
                   fontSize: 40, // 设置字体大小为40逻辑像素
                   fontWeight: FontWeight.bold, // 设置字体加粗
@@ -168,6 +168,7 @@ class _TopMenuState extends State<TopMenu> {
           SizedBox(
             height: 24,
           ),
+          // NoResult(),
           // WaitingResult(),
           Result(),
         ],
@@ -252,7 +253,7 @@ class Result extends StatelessWidget {
                 width: 200,
                 height: 24,
                 child: Text(
-                  '可视化对比（t=12s）',
+                  '可视化对比（Frame=22）',
                   style: TextStyle(
                     fontSize: 20,
                     height: 1.2,
@@ -273,7 +274,7 @@ class Result extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(6),
                   child: Image.asset(
-                    'assets/images/L_GT12.jpg',
+                    'assets/images/H_GT22.jpg',
                     width: 240,
                     height: 60,
                   ),
@@ -308,7 +309,7 @@ class Result extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(6),
                   child: Image.asset(
-                    'assets/images/L_Model12.jpg',
+                    'assets/images/H_Model22.jpg',
                     width: 240,
                     height: 60,
                   ),
@@ -370,7 +371,7 @@ class Result extends StatelessWidget {
                     height: 18,
                   ),
                   SvgPicture.asset(
-                    'assets/images/isw_psnr.svg',
+                    'assets/images/rb2d_psnr.svg',
                     width: 508,
                     height: 168,
                   ),
